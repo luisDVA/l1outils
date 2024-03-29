@@ -1,0 +1,18 @@
+Package: l1outils
+Type: Package
+Title: Tools for working with l1ou models
+Version: 0.1.0
+Author: person("Luis D.", "Verde Arregoitia", email = "luis@liomys.mx",
+        role=c("aut","cre"),comment = c(ORCID = "0000-0001-9520-6543"))
+Description: Utilities to work with different l1ou-related functions and outputs across phylogenetic tree blocks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ape,
+    dplyr,
+    igraph,
+    purrr,
+    stringr,
+    tidygraph
+RoxygenNote: 7.2.3
